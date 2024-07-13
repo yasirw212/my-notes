@@ -10,3 +10,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+main {
+    position: relative;
+    top: 7.5vh;
+}

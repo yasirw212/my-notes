@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Navigation.css'
 
 const Navigation = () => {
+    // eslint-disable-next-line no-unused-vars
     const [authenticated, setAuthenticated] = useState(false)
     const user = 'yasirw212'
     
