@@ -1,8 +1,15 @@
 import React from 'react'
+import Navigation from '../components/Navigation/Navigation'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <header><Navigation /></header>
+      <main>
+
+      </main>
+      <footer></footer>    
+    </>
   )
 }
 
