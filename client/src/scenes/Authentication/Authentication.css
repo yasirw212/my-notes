@@ -1,0 +1,109 @@
+.auth-container {
+    height: 92.5vh;
+    padding-top: 3em;
+    background-color: #FFFFFF;
+    background-image: url("data:image/svg+xml   ,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cg %3E%3Cpolygon fill='%230047d1' points='100 57.1 64 93.1 71.5 100.6 100 72.1'/%3E%3Cpolygon fill='%230058e6' points='100 57.1 100 72.1 128.6 100.6 136.1 93.1'/%3E%3Cpolygon fill='%230047d1' points='100 163.2 100 178.2 170.7 107.5 170.8 92.4'/%3E%3Cpolygon fill='%230058e6' points='100 163.2 29.2 92.5 29.2 107.5 100 178.2'/%3E%3Cpath fill='%23396AFC' d='M100 21.8L29.2 92.5l70.7 70.7l70.7-70.7L100 21.8z M100 127.9L64.6 92.5L100 57.1l35.4 35.4L100 127.9z'/%3E%3Cpolygon fill='%230059bf' points='0 157.1 0 172.1 28.6 200.6 36.1 193.1'/%3E%3Cpolygon fill='%23006cd6' points='70.7 200 70.8 192.4 63.2 200'/%3E%3Cpolygon fill='%232F80ED' points='27.8 200 63.2 200 70.7 192.5 0 121.8 0 157.2 35.3 192.5'/%3E%3Cpolygon fill='%23006cd6' points='200 157.1 164 193.1 171.5 200.6 200 172.1'/%3E%3Cpolygon fill='%230059bf' points='136.7 200 129.2 192.5 129.2 200'/%3E%3Cpolygon fill='%232F80ED' points='172.1 200 164.6 192.5 200 157.1 200 157.2 200 121.8 200 121.8 129.2 192.5 136.7 200'/%3E%3Cpolygon fill='%230059bf' points='129.2 0 129.2 7.5 200 78.2 200 63.2 136.7 0'/%3E%3Cpolygon fill='%232F80ED' points='200 27.8 200 27.9 172.1 0 136.7 0 200 63.2 200 63.2'/%3E%3Cpolygon fill='%23006cd6' points='63.2 0 0 63.2 0 78.2 70.7 7.5 70.7 0'/%3E%3Cpolygon fill='%232F80ED' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.auth-form {
+    color: #2948ff;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0 auto;
+    box-shadow: 0px 0px 10px #2948ff;
+    padding: 1em;
+    border-radius: 8px;
+    background: #fff;
+    max-width: 750px;
+}
+
+.auth-form label {
+    display: flex;
+    flex-direction: column;
+    margin-top: .75em;
+}
+
+.auth-form input {
+    margin-top: .5em;
+    border-radius: 4px;
+    border: 1px solid #2948ff;
+    padding: .35em .75em;
+}
+
+.auth-submit-btn {
+    color: #fff;
+    background: #396afc;
+    padding: 1em 1em;
+    margin-top: 1.25em;
+    border-radius: 8px;
+    border: transparent;
+    align-self: flex-start;
+    cursor: pointer;
+    min-width: 125px;
+}
+
+.auth-submit-btn:hover {
+    background-color: #2948ff;
+}
+
+.auth-type-btn {
+    background: transparent;
+    border: none;
+    color: #396afc;
+    align-self: flex-start;
+    margin-top: 1em;
+    font-size: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.auth-type-btn:hover{
+    color: #2948ff;
+}
+
+.cloud{ 
+    margin-top:70px;
+    width:350px;
+    height:120px;
+    background: #fff;
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    border-radius:100px;
+ }
+ .cloud::after, .cloud::before{
+     content:"";
+     position:relative;
+     display:inline-block;
+     background:inherit;
+     border-radius:inherit;
+ }
+ .cloud::after{
+     width:100px;
+     height:100px;
+     top: -120px;
+     left: -100px;
+ }
+ .cloud::before{
+     width:180px;
+     height:180px;
+     top: -70px;
+     left:130px;
+ }
+
+ .clouds-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: none;
+ }
+
+ .cloud-container li {
+    position: relative;
+    top: -50px;
+    left: 60px;
+ }
+
+@media only screen and (min-width: 1100px) {
+    .clouds-container {
+        display: block;
+    }
+}
